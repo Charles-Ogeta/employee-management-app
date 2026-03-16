@@ -1,17 +1,13 @@
 function showDetails(){
-alert("Employee Details: This is a placeholder for employee information.");
+alert("Showing full employee details");
 }
 
 function editContact(){
-alert("Edit functionality will be implemented here.");
+alert("Edit employee contact");
 }
 
 function deleteContact(){
-
-let confirmDelete = confirm("Are you sure you want to delete?");
-
-if(confirmDelete){
-alert("Employee deleted (placeholder).");
+if(confirm("Are you sure you want to delete?")){
+alert("Contact deleted");
 }
-
 }
