@@ -26,10 +26,16 @@ margin:auto;
 text-align:center;
 }
 
-.status{
-text-align:center;
-color:#2ecc71;
-font-size:12px;
+/* Green online dot */
+
+.status::before{
+content:"";
+width:8px;
+height:8px;
+background:#2ecc71;
+border-radius:50%;
+display:inline-block;
+margin-right:6px;
 }
 
 .sidebar a{
